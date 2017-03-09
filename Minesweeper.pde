@@ -116,7 +116,7 @@ public class MSButton
         }
         else if(countBombs(this.r,this.c) > 0)
         {
-            setLabel(Integer.toString(countBombs(this.r,this.c)));
+            setLabel(""+(countBombs(this.r,this.c)));
         }
         else{
             if(isValid(r,c-1) && buttons[r][c-1].clicked == false)
